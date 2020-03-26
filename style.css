@@ -1,0 +1,53 @@
+#title {
+    font-size: 24px;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+#buttonBar {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+#container {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+}
+
+#gridContainer {
+    display: grid;
+    height: 600px;
+    width: 600px;
+    background-color: aquamarine;
+    border: 2px solid orange;   
+    border-radius: 1%;
+}
+
+#resetButton {
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 10%;
+    border: 2px solid orange;
+    background-color: aquamarine;
+    color: orange;
+}
+
+#resetButton:hover {
+    background-color: orange;
+    color: aquamarine;
+}
+
+.sqr {
+    display: flex; 
+    flex: 1 0 auto;
+}
+
+.row {
+    display: flex;
+    
+}
